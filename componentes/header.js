@@ -3,7 +3,7 @@ function headerAdd(e) {
   componentEl.className = "header";
 
   componentEl.innerHTML = `
-  <a href="/index.html"><img class="header__logo"src="./Images/Gonza-logo.png" alt=""></a>
+  <a href="./index.html"><img class="header__logo"src="./Images/Gonza-logo.png" alt=""></a>
   <ul class="header__nav">
     <li><a class="header__link"href="./portfolio.html">Portfolio</a></li>
     <li><a class="header__link"href="./servicios.html">Servicios</a></li>
