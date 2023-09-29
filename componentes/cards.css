@@ -41,7 +41,7 @@ body {
     align-items: center;
     gap: 20px;
     background-color: rgba(19, 23, 28, 1);
-    background-image: url(/Images/servicios-background.png);
+    background-image: url(./Images/servicios-background.png);
     padding-bottom: 50px;
     padding-top: 30px;
 }
