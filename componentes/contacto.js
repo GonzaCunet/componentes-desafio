@@ -29,7 +29,7 @@ function contactAdd(e) {
 
       <div class="contact-button-div">
         <button class="contact-button">
-          Enviar <img src="/images/enviar.svg" alt="" />
+          Enviar <img src="./images/enviar.svg" alt="" />
         </button>`;
 
   e.appendChild(contactEl);
