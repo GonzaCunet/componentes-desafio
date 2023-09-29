@@ -2,7 +2,7 @@ function footerAdd(e) {
   const componentEl = document.createElement("footer");
   componentEl.className = "footer";
 
-  componentEl.innerHTML = `<div class="logo"><img class="footer__logo" src="/Images/Gonza-logo.png" alt=""></div>
+  componentEl.innerHTML = `<img class="footer__logo" src="./Images/Gonza-logo.png" alt="">
   <div class="links__container"> 
       <div class="ind__link"><img src="./Images/home.png" alt=""><a class="footer__links" href="/index.html">Home</a></div>
       <div class="ind__link"><img src="./Images/user.png" alt=""><a class="footer__links" href="/servicios.html">Servicios</a></div>
