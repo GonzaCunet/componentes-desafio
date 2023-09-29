@@ -1,0 +1,135 @@
+@import "/componentes/header.css";
+@import "/componentes/footer.css";
+@import "/componentes/contacto.css";
+@import "/componentes/cards.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    background-color: var(--Color-1, #13171C);
+}
+
+
+.main__hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 70px 44px;
+}
+
+@media(min-width:426px) {
+    .main__hero {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        justify-content: center;
+        align-items: center;
+        padding: 300px
+    }
+}
+
+.saludo {
+    color: #EEE;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    margin: 0
+}
+
+@media (min-width:426px) {
+    .saludo {
+        color: #EEE;
+        font-family: "Poppins";
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 96px;
+        /* 100% */
+    }
+}
+
+.salto {
+    color: #00ADB5;
+    font-family: "Poppins";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+@media (min-width:426px) {
+    .salto {
+        color: #00ADB5;
+        font-family: "Poppins";
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 96px;
+    }
+}
+
+.imagen__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 164px;
+}
+
+.about-me {
+    background-color: rgba(25, 33, 48, 1);
+    padding: 70px 40px 100px 40px;
+}
+
+.about-me__title {
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0
+}
+
+.about-me__text {
+    color: rgba(238, 238, 238, 0.75);
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0
+}
+
+.about-me__imagen {
+    width: 100%;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.about-me__container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    max-width: 380px;
+}
+
+
+
+
+@media (min-width: 426px) {
+    .about-me {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 80px
+    }
+}
