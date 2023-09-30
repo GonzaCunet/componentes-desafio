@@ -11,6 +11,7 @@ function headerAdd(e) {
   </ul>
   <img class="hamburger__menu"src="./Images/burguer.png" alt="">
   <div class="burger__container">
+  <img class="burger__close__button"src="./Images/ximg.svg" alt="">
       <a class="burger__link"href="./portfolio.html">Portfolio</a>
       <a class="burger__link"href="./servicios.html">Servicios</a>
       <a class="burger__link"href="./contacto.html">Contacto</a>
@@ -23,10 +24,11 @@ function headerAdd(e) {
 function addBurger() {
   const burgerMenu = document.querySelector(".hamburger__menu");
   const burgerContainer = document.querySelector(".burger__container");
+  const closeButton = document.querySelector(".burger__close__button");
   burgerMenu.addEventListener("click", () => {
     burgerContainer.style.display = "inherit";
   });
-  burgerContainer.addEventListener("click", () => {
+  closeButton.addEventListener("click", () => {
     burgerContainer.style.display = "none";
   });
 }
